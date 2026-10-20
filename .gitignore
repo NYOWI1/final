@@ -1,0 +1,14 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated dependencies and builds
+node_modules/
+.next/
+.next-integration/
+dist/
+
+# Local review artifacts
+/output/
+.DS_Store
